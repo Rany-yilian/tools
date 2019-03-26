@@ -1,0 +1,270 @@
+$(function() {
+    var e = $(".nemu-btn")
+      , t = $(".nemu-wrapper")
+      , n = $(".op-bg")
+      , i = $(".app-downlaod-guide a")
+      , s = $(".app-downlaod-guide")
+      , o = $(".footer-wx");
+    e.on("tap, click", function() {
+        if (e.hasClass("selected")) {
+            e.removeClass("selected");
+            t.addClass("hiden");
+            n.hide()
+        } else {
+            e.addClass("selected");
+            t.removeClass("hiden");
+            n.show()
+        }
+    });
+    $("header").on("tap, click", function(e) {
+        if (e.target.tagName.toLowerCase() != "a") {
+            e.preventDefault()
+        }
+    });
+    n.on("click", function(i) {
+        e.removeClass("selected");
+        t.addClass("hiden");
+        n.hide()
+    });
+    $(".footer .wx").on("tap", function() {
+        o.show()
+    });
+    o.on("tap", "p", function() {
+        o.hide()
+    });
+    s.on("tap", "em", function() {
+        s.hide()
+    });
+    var a = document.documentElement.clientHeight, l = document.querySelector(".to-top"), r;
+    window.addEventListener("scroll", function() {
+        if (r)
+            clearTimeout(r);
+        r = setTimeout(function() {
+            var e = document.body.scrollTop;
+            if (e >= a / 2)
+                l.style.display = "block";
+            else {
+                l.style.display = "none"
+            }
+        }, 100)
+    }, false);
+    l.addEventListener("click", function() {
+        window.scroll(0, 0)
+    }, false);
+    var c = document.querySelector(".tab-nav-index span");
+    if (c) {
+        tab("tab-nav-index span", "share-list", "selected")
+    }
+    if (document.querySelector(".main-nav input")) {
+        document.querySelector(".main-nav input").addEventListener("focus", function() {
+            window.scroll(0, 100)
+        }, false)
+    }
+});
+function switchClass(ele, name, bgShow, showEle) {
+    if (ele.className.indexOf(name) >= 0) {
+        var reg = eval("/\\s*" + name + "/g");
+        ele.className = ele.className.replace(reg, "");
+        if (arguments[2] != undefined) {
+            for (var i = 0, len = showEle.length; i < len; i++) {
+                var boolShow = bgShow ? "block" : "none";
+                showEle[i].style.display = boolShow
+            }
+        }
+    } else {
+        ele.className = ele.className + " " + name;
+        if (arguments[2] != undefined) {
+            for (var i = 0, len = showEle.length; i < len; i++) {
+                var boolShow = bgShow ? "none" : "block";
+                showEle[i].style.display = boolShow
+            }
+        }
+    }
+}
+function tab(nav, target, css) {
+    var $nav = document.querySelectorAll("." + nav)
+      , $target = document.querySelectorAll("." + target)
+      , len = $nav.length;
+    for (var i = 0; i < len; i++) {
+        $nav[i].index = i;
+        $nav[i].addEventListener("click", function() {
+            var index = this.index;
+            if (this.className.indexOf(css) >= 0)
+                return;
+            var hasClass = false;
+            if (this.className.length > 0)
+                hasClass = true;
+            for (var i = 0; i < len; i++) {
+                if (i == index) {
+                    this.className = hasClass ? " " + css : css;
+                    $target[i].style.display = "block"
+                } else {
+                    var reg = eval("/\\s*" + css + "/g");
+                    $nav[i].className = $nav[i].className.replace(reg, "");
+                    $target[i].style.display = "none"
+                }
+            }
+        }, false)
+    }
+}
+$(function() {
+    var e = $(window).height()
+      , t = $(window).width();
+    function n(e) {
+        this.settings = $.extend({
+            ok: null,
+            confirmOk: false,
+            cancel: false,
+            width: 280,
+            txt: "",
+            time: 2500
+        }, e);
+        this.show()
+    }
+    n.prototype.show = function() {
+        var n = this;
+        n.dialogEle = $('<div class="dialog-bg"></div>').appendTo("body").on("click", function() {
+            n.remove()
+        });
+        n.dialogContent = $("<div></div>").appendTo(n.dialogEle).on("click", function() {
+            return false
+        });
+        n.dialogContent.width(n.settings.width).html(this.settings.txt);
+        var i = n.dialogContent.css({
+            "padding-bottom": "12px",
+            display: "block",
+            visibility: "hidden"
+        }).height();
+        n.dialogContent.css({
+            top: (e - i) / 2 - 40 + "px",
+            left: (t - n.settings.width) / 2 + "px",
+            visibility: "visible"
+        }).show();
+        if (n.settings.cancel)
+            this.cancel();
+        if (n.settings.ok && $.isFunction(n.settings.ok)) {
+            this.ok()
+        } else if (!n.settings.cancel) {
+            setTimeout(function() {
+                n.remove()
+            }, n.settings.time)
+        }
+    }
+    ;
+    n.prototype.remove = function() {
+        if (this.btnWrapper) {
+            this.btnWrapper.remove()
+        }
+        this.dialogEle.remove()
+    }
+    ;
+    n.prototype.ok = function() {
+        var e = this;
+        if (!e.btnWrapper) {
+            e.btnWrapper = $("<div></div>").appendTo(e.dialogContent)
+        }
+        var t = $("<button>确定</button>").on("click", function() {
+            var t = e.settings.ok();
+            if (e.settings.confirmOk) {
+                if (t) {
+                    e.remove()
+                }
+            } else {
+                e.remove()
+            }
+            return false
+        }).addClass(e.settings.cancel ? "ok" : "ok-one").appendTo($("<div></div>")).appendTo(e.btnWrapper);
+        if (t.hasClass("ok-one")) {
+            e.btnWrapper.addClass("ok-one-wrapper")
+        }
+    }
+    ;
+    n.prototype.cancel = function() {
+        var e = this;
+        if (!e.btnWrapper) {
+            e.btnWrapper = $("<div></div>").appendTo(e.dialogContent)
+        }
+        $("<button>取消</button>").on("click", function() {
+            e.remove();
+            return false
+        }).addClass("cancel").appendTo(e.btnWrapper)
+    }
+    ;
+    window.dialog = function(e) {
+        return new n(e)
+    }
+});
+(function(e) {
+    function t(t) {
+        this.setting = e.extend({
+            wrapper: "",
+            selector: ".check-img",
+            pos: "bg",
+            defaultImg: no_pic,
+            hasWrap: ""
+        }, t);
+        this.arr = [];
+        this.imgObj = null;
+        this.init()
+    }
+    t.prototype.init = function() {
+        this.collectImg();
+        if (this.arr.length > 0) {
+            this.inspectImg()
+        }
+    }
+    ;
+    t.prototype.collectImg = function() {
+        var t = this
+          , n = this.setting;
+        this.container = e(n.wrapper).find(n.selector);
+        if (n.pos === "bg") {
+            this.container.each(function() {
+                t.arr.push(e(this).css("background-image").slice(4).replace(")", ""))
+            })
+        } else if (n.pos === "image") {
+            this.container.each(function() {
+                t.arr.push(e(this).attr("src"))
+            })
+        }
+    }
+    ;
+    t.prototype.inspectImg = function() {
+        var e = this
+          , t = this.setting;
+        for (var n = 0, i = this.arr.length; n < i; n++) {
+            this.imgObj = document.createElement("img");
+            this.imgObj.index = n;
+            this.imgObj.onerror = function() {
+                var n = this.index
+                  , i = e.container.eq(n);
+                if (t.pos === "bg") {
+                    i.css("background-image", "url(" + e.setting.defaultImg + ")").css("background-color", "#ededed")
+                } else if (t.pos === "image") {
+                    i.attr("src", e.setting.defaultImg);
+                    if (e.setting.hasWrap !== undefined && e.setting.hasWrap !== "") {
+                        i.parent(e.hasWrap).css("background-color", "#ededed")
+                    }
+                }
+            }
+            ;
+            this.imgObj.src = this.arr[n].indexOf('"') >= 0 ? this.arr[n].slice(1, -1) : this.arr[n];
+            this.imgObj = null
+        }
+    }
+    ;
+    window.checkImg = function(e) {
+        return new t(e)
+    }
+}
+)(window.Zepto);
+$(function() {
+    try {
+        checkImg({
+            wrapper: ".service-list dd",
+            selector: "b",
+            pos: "bg"
+        })
+    } catch (e) {}
+});
+/*SUN-FILE GENERATE:2018-3-2 17:49:37*/

